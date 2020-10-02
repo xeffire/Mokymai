@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Skaiciuotuvas",
+            "request": "launch",
+            "mainClass": "Skaiciuotuvas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OruStebejimas",
+            "request": "launch",
+            "mainClass": "OruStebejimas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TikVienas",
+            "request": "launch",
+            "mainClass": "TikVienas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LyginisSkaicius",
+            "request": "launch",
+            "mainClass": "LyginisSkaicius",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trikampis",
+            "request": "launch",
+            "mainClass": "Trikampis",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trizenklis",
+            "request": "launch",
+            "mainClass": "Trizenklis",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Kampas",
+            "request": "launch",
+            "mainClass": "Kampas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Skaicius",
+            "request": "launch",
+            "mainClass": "Skaicius",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pazymiai",
+            "request": "launch",
+            "mainClass": "Pazymiai",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Vairuotojas",
+            "request": "launch",
+            "mainClass": "Vairuotojas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Akcija",
+            "request": "launch",
+            "mainClass": "Akcija",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Kvadratas",
+            "request": "launch",
+            "mainClass": "Kvadratas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KvadratineSaknis",
+            "request": "launch",
+            "mainClass": "KvadratineSaknis",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PositiveValue<014.PositiveValue>",
+            "request": "launch",
+            "mainClass": "PositiveValue",
+            "projectName": "014.PositiveValue"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<014.PositiveValue>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "014.PositiveValue"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<014.PositiveValue>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "014.PositiveValue"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<014.PositiveValue>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "014.PositiveValue"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AgeOfMajority<015.AgeOfMajority>",
+            "request": "launch",
+            "mainClass": "AgeOfMajority",
+            "projectName": "015.AgeOfMajority"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<015.AgeOfMajority>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "015.AgeOfMajority"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<015.AgeOfMajority>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "015.AgeOfMajority"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<015.AgeOfMajority>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "015.AgeOfMajority"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EvenOrOdd<016.OddOrEven>",
+            "request": "launch",
+            "mainClass": "EvenOrOdd",
+            "projectName": "016.OddOrEven"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<016.OddOrEven>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "016.OddOrEven"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<016.OddOrEven>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "016.OddOrEven"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<016.OddOrEven>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "016.OddOrEven"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GreaterNumber<017.GreaterNumber>",
+            "request": "launch",
+            "mainClass": "GreaterNumber",
+            "projectName": "017.GreaterNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<017.GreaterNumber>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "017.GreaterNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<017.GreaterNumber>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "017.GreaterNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<017.GreaterNumber>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "017.GreaterNumber"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GradesAndPoints<018.GradesAndPoints>",
+            "request": "launch",
+            "mainClass": "GradesAndPoints",
+            "projectName": "018.GradesAndPoints"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<018.GradesAndPoints>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "018.GradesAndPoints"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<018.GradesAndPoints>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "018.GradesAndPoints"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<018.GradesAndPoints>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "018.GradesAndPoints"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AgeCheck<019.AgeCheck>",
+            "request": "launch",
+            "mainClass": "AgeCheck",
+            "projectName": "019.AgeCheck"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<019.AgeCheck>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "019.AgeCheck"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<019.AgeCheck>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "019.AgeCheck"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<019.AgeCheck>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "019.AgeCheck"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Usernames<020.Usernames>",
+            "request": "launch",
+            "mainClass": "Usernames",
+            "projectName": "020.Usernames"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<020.Usernames>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "020.Usernames"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<020.Usernames>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "020.Usernames"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<020.Usernames>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "020.Usernames"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeapYear<021.LeapYear>",
+            "request": "launch",
+            "mainClass": "LeapYear",
+            "projectName": "021.LeapYear"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<021.LeapYear>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "021.LeapYear"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<021.LeapYear>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "021.LeapYear"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<021.LeapYear>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "021.LeapYear"
+        }
+    ]
+}
