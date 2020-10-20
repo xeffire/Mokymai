@@ -4,17 +4,33 @@
     <meta charset="utf-8">
     <title>Table</title>
     <style>
+      body {
+        padding: 0 1.5em;
+      }
       table {
         width: 100%;
         border-collapse: collapse;
+        margin: 1.5em 0;
       }
       td, th {
         border: solid 1px black;
         text-align: left;
         padding: 5px;
-        font-weight: initial;
+        font-weight: inherit;
       }
-      th:first-of-type{background-color: tomato;}
+      tr:first-of-type{background-color: #eeeeee;}
+      .tomato{background-color: tomato;}
+      .orange{background-color: orange;}
+      .dodgerBlue{background-color: dodgerblue;}
+      .mediumSeaGreen{background-color: mediumseagreen;}
+      .gray{background-color: gray;}
+      .slateBlue{background-color: slateblue;}
+      .violet{background-color: violet;}
+      .lightGray{background-color: lightgray;}
+      .header{
+        background-color: #eeeeee;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -25,83 +41,96 @@
         <th>Color Code</th>
       </tr>
       <tr>
-        <td></td>
+        <td class = "tomato"></td>
         <td>Tomato</td>
         <td>#FF6347</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="orange"></td>
         <td>Orange</td>
         <td>#FFA500</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="dodgerBlue"></td>
         <td>DodgerBlue</td>
         <td>#1E90FF</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="mediumSeaGreen"></td>
         <td>MediumSeaGreen</td>
         <td>#3CB371</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="gray"></td>
         <td>Gray</td>
         <td>#808080</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="slateBlue"></td>
         <td>SlateBlue</td>
         <td>#6A5ACD</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="violet"></td>
         <td>Violet</td>
         <td>#EE82EE</td>
       </tr>
       <tr>
-        <td></td>
+        <td class="lightGray"></td>
         <td>LightGray</td>
         <td>#D3D3D3</td>
       </tr>
     </table>
+    <table>
+      <tr class="header">
+        <td colspan="3">Invoice #123456789</td>
+        <td>14 January 2025</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p><strong>Pay to: <br></strong>
+            Acme Billing Co. <br>
+            123 Main St. <br>
+            Cityville, NA 12345</p>
+        </td>
+        <td colspan="2">
+          <p><strong>Customer: <br></strong>
+            John Smith. <br>
+            321 Willow Way <br>
+            Southeast Northwestershire, MA 54321</p>
+        </td>
+      </tr>
+      <tr class="header">
+        <td>Name/Description</td>
+        <td>Qty.</td>
+        <td>@</td>
+        <td>Cost</td>
+      </tr>
+      <tr>
+        <td>Paperclips</td>
+        <td>1000</td>
+        <td>0.01</td>
+        <td>10.00</td>
+      </tr>
+      <tr>
+        <td>Staples (box)</td>
+        <td>100</td>
+        <td>1.00</td>
+        <td>100.00</td>
+      </tr>
+      <tr>
+        <td class="header" colspan="3">Subtotal</td>
+        <td>110.00</td>
+      </tr>
+      <tr>
+        <td class="header" colspan="2">Tax</td>
+        <td>8%</td>
+        <td>8.80</td>
+      </tr>
+      <tr>
+        <td class="header" colspan="3">Grand Total</td>
+        <td>118.80</td>
+      </tr>
+    </table>
   </body>
 </html>
-Tomato
-
-  Invoice #123456789
-  14 January 2025
-
-  Pay to:
-  Acme Billing Co.
-  123 Main St.
-  Cityville, NA 12345
-
-  Customer:
-  John Smith.
-  321 Willow Way
-  Southeast Northwestershire, MA 54321
-
-  Name/Description
-  Qty.
-  @
-  Cost
-
-  Paperclips
-  1000
-  0.01
-  10.00
-
-  Staples (box)
-  100
-  1.00
-  100.00
-
-
-  Subtotal
-  110.00
-
-  8%
-  8.80
-  Grand Total
-  118.80

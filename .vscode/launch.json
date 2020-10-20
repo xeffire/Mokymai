@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LoopsEndingRemembering",
+            "request": "launch",
+            "mainClass": "LoopsEndingRemembering",
+            "projectName": "036.LoopsEndingRemembering"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SumOfThePowers",
+            "request": "launch",
+            "mainClass": "SumOfThePowers",
+            "projectName": "035.SumOfThePowers"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FromOneToHundred",
+            "request": "launch",
+            "mainClass": "FromOneToHundred",
+            "projectName": "027.FromOneToHundred"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Skaiciuotuvas",
             "request": "launch",
             "mainClass": "Skaiciuotuvas",
