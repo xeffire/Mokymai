@@ -1,0 +1,17 @@
+1.SELECT * FROM `employees`;
+2.
+3.SELECT `employeeid` FROM `employees`;
+4.SELECT `lastname`, `firstname`, `title` FROM `employees`;
+5.SELECT DISTINCT `city` FROM `employees`;
+6.SELECT * FROM 'employees' WHERE city = 'Seattle';
+7.SELECT 'title' from 'employees' where firstname = 'Andrew';
+8.SELECT * FROM `employees` WHERE birthdate = '1963-07-02';
+9.SELECT 'firstname' FROM `employees` WHERE lastname = 'Leverling';
+10.SELECT 'firstname', 'lastname' FROM `employees` WHERE title = 'Sales Representative' AND country = 'USA';
+11.REPLACE INTO `employees`(`lastname`, `firstname`, `title`, `titleofcourtesy`, `birthdate`, `hiredate`, `address`, `city`, `region`, `postalcode`, `country`, `homephone`, `extension`, `notes`, `reportsto`, `photopath`) VALUES ('Goberis', 'Justinas', 'Programmer', 'Mr.', '1998-06-01', '2020-10-27', 'Minties g. 26-46', 'Vilnius', null, 123456, 'Lithuania', null, null, null, null, null);
+12.INSERT INTO `employees`(`employeeid`, `lastname`, `firstname`) VALUES (100, 'Justinas', 'Goberis');
+13.UPDATE `employees` SET `title`='Programmer',`titleofcourtesy`='Mr.',`birthdate`='1998-06-01',`hiredate`='2020-10-27',`address`='Minties g. 26-46',`city`='Vilnius',`region`=null,`postalcode`=123456,`country`='Lithuania',`homephone`=62689518,`extension`='+370',`notes`='All good',`reportsto`=null,`photopath`='http://facebook.com' WHERE employeeid = 100;
+14.DELETE FROM `employees` WHERE employeeid = 100;
+15.INSERT INTO 'employees' ('lastname', 'title') VALUES ('Antanaitis', 'Sales Manager'), ('Antanaitis', 'Sales Manager');
+16.UPDATE `employees` SET title='Sales Representative' WHERE lastname = 'Antanaitis';
+17.SELECT COUNT(title='Sales Representative') FROM 'employees';

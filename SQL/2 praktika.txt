@@ -1,0 +1,18 @@
+1.SELECT 'employeeid', 'firstname', 'lastname' FROM `employees` WHERE birthdate = '1952-02-19';
+2.SELECT * FROM `employees` WHERE birthdate < '1960-07-29';
+3.SELECT 'hiredate', 'birthdate' FROM `employees` WHERE hiredate > '1993-10-29' AND hiredate < '2012-11-11';
+4.SELECT 'firstname', 'title', 'reportsto' FROM `employees` WHERE city IN ('London', 'Seattle');
+5.SELECT `contactname`, `companyname`, `customerid` FROM `customers` WHERE `city` LIKE 'Ma%';
+6.SELECT * FROM `employees` WHERE `birthdate` LIKE '%19';
+7.SELECT * FROM `employees` WHERE `title` LIKE '__l%';
+8.SELECT * FROM `employees` WHERE `title` = null;
+9.SELECT `firstname`, `lastname`, `hiredate`, `title` FROM `employees` WHERE `hiredate` = '1993-10-17' AND `title` = 'Sales Manager';
+10.SELECT `firstname`, `lastname`, `title`, `reportsto` FROM `employees` WHERE `title` = 'Sales Representative' AND `reportsto` = 5;
+11.SELECT `firstname` FROM `employees` WHERE `firstname` NOT LIKE 'M%';
+12.SELECT `firstname`, `hiredate`, `birthdate` FROM `employees` WHERE NOT (`hiredate` > '1992-07-07' AND `hiredate` < '1994-03-04');
+13.SELECT `firstname`, `lastname`, `birthdate` FROM `employees` ORDER BY `birthdate` ASC;
+14.SELECT `firstname`, `lastname`, `birthdate` FROM `employees` ORDER BY `birthdate` DESC;
+15.SELECT MIN(`birthdate`), MAX(`birthdate`) FROM `employees`;
+16.SELECT `city`, COUNT(`customerid`) FROM `customers` GROUP BY `city`;
+17.SELECT `city`, `contacttitle`, COUNT(`customerid`) FROM `customers` WHERE `contacttitle` = 'Accounting Manager' GROUP BY `city`;
+18.SELECT `city`, `contacttitle`, COUNT(`customerid`) FROM `customers` WHERE `contacttitle` = 'Accounting Manager' GROUP BY `city` HAVING COUNT(`customerid`) > 1;

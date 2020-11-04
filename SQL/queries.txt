@@ -1,5 +1,0 @@
-1.SELECT * FROM `employees`;
-2.
-3.SELECT `employeeid` FROM `employees`;
-4.SELECT `lastname`, `firstname`, `title` FROM `employees`;
-5.SELECT DISTINCT `city` FROM `employees`;

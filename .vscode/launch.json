@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SkaiciuotuvasDu",
+            "request": "launch",
+            "mainClass": "SkaiciuotuvasDu",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Knyga",
+            "request": "launch",
+            "mainClass": "Knyga",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Saldainiai",
+            "request": "launch",
+            "mainClass": "Saldainiai",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Degalai",
+            "request": "launch",
+            "mainClass": "Degalai",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Funcija",
+            "request": "launch",
+            "mainClass": "Funcija",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DaugybosLentele",
+            "request": "launch",
+            "mainClass": "DaugybosLentele",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Vardas",
+            "request": "launch",
+            "mainClass": "Vardas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Intervalas",
+            "request": "launch",
+            "mainClass": "Intervalas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SkaiciuSeka",
+            "request": "launch",
+            "mainClass": "SkaiciuSeka",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dvizenkliai",
+            "request": "launch",
+            "mainClass": "Dvizenkliai",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Kvadratu",
+            "request": "launch",
+            "mainClass": "Kvadratu",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VienazenkliaiSkaiciai",
+            "request": "launch",
+            "mainClass": "VienazenkliaiSkaiciai",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LoopsEndingRemembering",
             "request": "launch",
             "mainClass": "LoopsEndingRemembering",
