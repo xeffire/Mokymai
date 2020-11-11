@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SnaigeUzLango",
+            "request": "launch",
+            "mainClass": "SnaigeUzLango",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KeliasIMokykla",
+            "request": "launch",
+            "mainClass": "KeliasIMokykla",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Konkursas",
+            "request": "launch",
+            "mainClass": "Konkursas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SkaiciuotuvasDu",
             "request": "launch",
             "mainClass": "SkaiciuotuvasDu",
