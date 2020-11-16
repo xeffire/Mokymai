@@ -6,6 +6,54 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ketvirtas",
+            "request": "launch",
+            "mainClass": "ketvirtas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - trecias",
+            "request": "launch",
+            "mainClass": "trecias",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - antras",
+            "request": "launch",
+            "mainClass": "antras",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pirmas",
+            "request": "launch",
+            "mainClass": "pirmas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KaledineEglute",
+            "request": "launch",
+            "mainClass": "KaledineEglute",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SnaigeUzLango",
             "request": "launch",
             "mainClass": "SnaigeUzLango",

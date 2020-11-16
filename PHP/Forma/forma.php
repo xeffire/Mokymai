@@ -2,11 +2,15 @@
 <html>
 <head>
     <title>Data form</title>
-<link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
 <?php
 if (isset($_POST['act']) && $_POST['act'] == 'act') {
+    if(!empty($_POST['email'])) {
+        $fp = fopen("email.txt", "a");
+        fwrite($fp, $_POST['email']."\n");
+        fclose($fp);
+    }
     echo "Vardas: ".$_POST['name'];
     echo "<br>E_mailas: ".$_POST['email'];
     echo "<br><u>Isrinkta elementu - ".(count($_POST) - 6)."</u>";
@@ -41,8 +45,13 @@ if (isset($_POST['act']) && $_POST['act'] == 'act') {
         <input type="hidden" name="act" value="act">
         <input type="submit" name="submit" value="Issiusti">
         <input type="reset" name="reset" value="Isvalyti">
-        </from>
-
+    </from>
+    
+    <a href="read.php">Į read.php >>></a>
+    <?php 
+      include (substr(__DIR__, 0, strpos(__DIR__, "Mokymai") + 7).'\gitTag.php'); 
+      git(substr(__DIR__, strpos(__DIR__, "Mokymai") + 8, strlen(__DIR__))); 
+      ?>
     </body>
 
 </html>
