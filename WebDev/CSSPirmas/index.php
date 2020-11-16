@@ -31,5 +31,9 @@
         <div class="antras"></div>
         <div class="trecias"></div>
         <div class="ketvirtas"></div>
+        <?php 
+      include (substr(__DIR__, 0, strpos(__DIR__, "Mokymai") + 7).'\gitTag.php'); 
+      git(substr(__DIR__, strpos(__DIR__, "Mokymai") + 8, strlen(__DIR__))); 
+      ?>
     </body>
 </html>

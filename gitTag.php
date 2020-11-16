@@ -1,6 +1,6 @@
 <?php function git($dir){
     echo (
-        "<span class='phpFooter'><a href='https://github.com/xeffire/Mokymai/$dir'target='_blank'>Git nuodora >>></a></span>"
+        "<span class='phpFooter'><a href='https://github.com/xeffire/Mokymai/tree/master/$dir'target='_blank'>Git nuodora >>></a></span>"
     );
     echo ('<script>console.log("OK");
     var head = document.getElementsByTagName("head")[0],

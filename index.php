@@ -35,8 +35,8 @@
         ></span
       > -->
       <?php 
-      include 'gitTag.php'; 
-      git($variable = substr(__DIR__, strpos(__DIR__, "Mokymai") + 7, strlen(__DIR__))); 
+      include (substr(__DIR__, 0, strpos(__DIR__, "Mokymai") + 7).'\gitTag.php'); 
+      git(substr(__DIR__, strpos(__DIR__, "Mokymai") + 8, strlen(__DIR__))); 
       ?>
   </body>
 </html>
