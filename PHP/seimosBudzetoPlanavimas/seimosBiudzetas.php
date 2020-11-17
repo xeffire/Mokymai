@@ -29,5 +29,9 @@
         <td><a href="./Islaidos.php?name=Liza">Liza</a></td>
       </tr>
     </table>
+    <?php 
+      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
+      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
+      ?>
   </body>
 </html>

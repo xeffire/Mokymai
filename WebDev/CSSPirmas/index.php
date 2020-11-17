@@ -32,8 +32,8 @@
         <div class="trecias"></div>
         <div class="ketvirtas"></div>
         <?php 
-      include (substr(__DIR__, 0, strpos(__DIR__, "Mokymai") + 7).'\gitTag.php'); 
-      git(substr(__DIR__, strpos(__DIR__, "Mokymai") + 8, strlen(__DIR__))); 
+      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
+      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
       ?>
     </body>
 </html>
