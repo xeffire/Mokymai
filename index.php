@@ -23,16 +23,16 @@
         <h2>CSS</h2>
         <ol>
           <li><a href="./WebDev/CSSPirmas/index.php">CSS įvadas</a></li>
+          <li><a href="./WebDev/CSSTrecias/index.php">CSS Positions</a></li>
+        </ol>
+      </div>
+      <div class="box">
+        <h2>Grafinis dizainas</h2>
+        <ol>
+          <li><a href="./Grafika/Koloritas/index.php">Koloritas</a></li>
         </ol>
       </div>
     </div>
-      <!-- <span class="phpFooter"
-        ><a
-          href="https://github.com/xeffire/Mokymai/<?php __DIR__?>"
-          target="_blank"
-          >Git nuodora >>></a
-        ></span
-      > -->
       <?php 
       include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
       git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
