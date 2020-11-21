@@ -6,6 +6,37 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - septintas",
+            "request": "launch",
+            "mainClass": "septintas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - antras",
+            "request": "launch",
+            "mainClass": "antras"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pirmas",
+            "request": "launch",
+            "mainClass": "pirmas"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sestas",
+            "request": "launch",
+            "mainClass": "sestas"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - penktas",
+            "request": "launch",
+            "mainClass": "penktas"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - test",
             "request": "launch",
             "mainClass": "test"

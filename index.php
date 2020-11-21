@@ -32,6 +32,7 @@
         <h2>Grafinis dizainas</h2>
         <ol>
           <li><a href="./Grafika/Koloritas/index.php">Koloritas</a></li>
+          <li><a href="./Grafika/VibruajanciosSpalvos/index.php">Vibruojantis tekstas</a></li>
         </ol>
       </div>
     </div>
