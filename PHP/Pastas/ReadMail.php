@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
+        <!-- git Tag -->
+        <?php 
+      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
+      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
+      ?>
     <h1>Inbox</h1>
     <Table>
         <tr>

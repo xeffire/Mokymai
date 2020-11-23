@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
+    <!-- git Tag -->
+     <?php 
+      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
+      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
+      ?>
     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="get">
         <fieldset>
             <legend>Message:</legend>
@@ -44,5 +49,6 @@
             exit("Your message is accepted.");
         }
     ?>
+          
 </body>
 </html>
