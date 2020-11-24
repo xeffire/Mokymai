@@ -36,6 +36,7 @@
         <ol>
           <li><a href="./WebDev/CSSPirmas/index.php">CSS įvadas</a></li>
           <li><a href="./WebDev/CSSTrecias/index.php">CSS Positions</a></li>
+          <li><a href="./WebDev/float/index.php">CSS Float</a></li>
         </ol>
       </div>
       <div class="box">
