@@ -46,9 +46,11 @@
         </ol>
       </div>
     </div>
-      <?php 
-      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-      ?>
+    <!-- git Tag and loading screen -->
+    <?php 
+        include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
+        git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
+    ?>
+    <!--  -->
   </body>
 </html>
