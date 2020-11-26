@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="la">
     <head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTPDDPY2VX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TTPDDPY2VX');
+</script>
+    <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+    <script src="/control.js"></script>
+    <!--  -->
         <meta charset="utf-8">
         <title>CSS Įvadas</title>
         <link rel="stylesheet" href="./css.css">
@@ -31,9 +43,9 @@
         <div class="antras"></div>
         <div class="trecias"></div>
         <div class="ketvirtas"></div>
-        <?php 
+        <!-- <?php 
       include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
       git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-      ?>
+      ?> -->
     </body>
 </html>

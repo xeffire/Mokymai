@@ -10,10 +10,13 @@
 
   gtag('config', 'G-TTPDDPY2VX');
 </script>
+    <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+    <script src="/control.js"></script>
+    <!--  -->
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Praktiniai darbai</title>
   </head>
   <body>
@@ -47,11 +50,13 @@
         </ol>
       </div>
     </div>
-    <!-- git Tag and loading screen -->
+
+    
+    <!-- git Tag and loading screen --
     <?php 
         include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
         git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
     ?>
-    <!--  -->
+    !--  -->
   </body>
 </html>

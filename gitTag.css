@@ -37,3 +37,84 @@
     padding-right: 1rem;
     transition: background-color 0.4s;
 }
+
+.feedback {
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    height: 10rem;
+    width: 30rem;
+    padding: 1rem;
+    background-color: rgba(63, 62, 62, 0.5);
+    position: fixed;
+    left: 4px;
+    bottom: calc(8px + 3rem);
+    transition: background-color 0.4s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.feedback.active > img {
+    position: absolute;
+    padding: 0;
+    bottom: 0.5rem;
+    width: 2rem;
+    z-index: 1;
+}
+
+.feedback.nonactive {
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.thumbsUpButton {
+    right: 3rem;
+}
+
+.thumbsDownButton {
+    right: 0.5rem;
+    filter: hue-rotate(150deg);
+    transform: rotate(180deg);
+}
+
+.thumbsUpButton.nonactive, .thumbsDownButton.nonactive {
+    filter: grayscale(100%);
+}
+
+.comment {
+    width: 2rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+}
+
+.feedback > textarea {
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.feedback.nonactive > *:not(.comment) {
+    display: none;
+}
+
+.feedback > .submit {
+    height: 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 5.5rem;
+}
+
+.responseText {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 10.5rem;
+    color: black;
+    font-size: initial;
+    font-style: italic;
+    margin: 0;
+    line-height: 2rem;
+}

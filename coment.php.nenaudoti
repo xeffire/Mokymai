@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Document</title>
+    <link rel='stylesheet' href='gitTag.css' />
+    <script src='comment.js'></script>
+  </head>
+  <body>
+    <div class='feedback nonactive'>
+      <textarea
+        name='mess'
+        id='mess'
+        placeholder='Komentarai, pastabos, pasiūlymai, bet neprivaloma :)'
+      ></textarea>
+      <p class='responseText'></p>
+      <img
+        onClick='toggleActive(this.parentElement);'
+        class='comment'
+        src='./comment.svg'
+        alt=''
+      /><button class='submit' onClick='feedbackSubmit(this.parentElement)'>
+        Patvirtinti</button
+      ><img
+        onClick='toggleActive(this); toggle(this)'
+        class='thumbsUpButton nonactive'
+        src='./up-arrow.svg'
+        alt=''
+      /><img
+        onClick='toggleActive(this); toggle(this)'
+        class='thumbsDownButton nonactive'
+        src='./up-arrow.svg'
+        alt=''
+      />
+    </div>
+  </body>
+</html>
