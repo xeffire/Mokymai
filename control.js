@@ -1,3 +1,4 @@
+
 function elemBuilder(obj) {
     let elem = document.createElement(obj.elem);
     for(key of Object.keys(obj)){
@@ -93,9 +94,10 @@ function linkResources() {
     head.appendChild(cssLink);
     head.appendChild(jsComment);
 }
-window.onload = () => {
+function load() {
     document.body.appendChild(gitTag());
     document.body.appendChild(commentTag());
     linkResources();
 }
-console.log(window.location.pathname);
+
+document.addEventListener("DOMContentLoaded", load);

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTPDDPY2VX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TTPDDPY2VX');
+    </script>
+    <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+    <script src="/control.js"></script>
+    <!--  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-
-    <!-- git Tag -->
-    <?php 
-    include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-    git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-    ?>
-    <!--  -->
     <h1>Floating the Mediterranean Diet</h1>
     <img class="left" src="./img/avocados.jpg" alt="avocados">
 <p>

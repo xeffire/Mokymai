@@ -4,11 +4,6 @@ function toggleActive(obj) {
     ? (obj.className = obj.className.replace(suffix[0], suffix[1]))
     : (obj.className = obj.className.replace(suffix[1], suffix[0]));
 }
-// function handleCommentIcon(obj) {
-//   let urls = ["./comment.svg", "./return.svg"];
-//   console.log(obj.parentElement.className);
-//   obj.className.includes(" active") ? (obj.src = urls[1]) : (obj.src = urls[0]);
-// }
 function toggle(obj1) {
   let obj2 = obj1.className.includes("thumbsUpButton")
     ? document.getElementsByClassName("thumbsDownButton")[0]

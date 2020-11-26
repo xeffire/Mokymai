@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="lt">
   <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTPDDPY2VX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TTPDDPY2VX');
+        </script>
+        <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+        <script src="/control.js"></script>
+        <!--  -->
       <link rel="stylesheet" href="./css/css.css">
     <meta charset="utf-8" />
     <title>Simpsonų šeimos biudžetas</title>
@@ -29,9 +40,5 @@
         <td><a href="./Islaidos.php?name=Liza">Liza</a></td>
       </tr>
     </table>
-    <?php 
-      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-      ?>
   </body>
 </html>

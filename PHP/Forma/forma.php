@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTPDDPY2VX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TTPDDPY2VX');
+    </script>
+    <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+    <script src="/control.js"></script>
+    <!--  -->
     <title>Data form</title>
+    <meta charset="utf-8">
 </head>
 <body>
 <?php
@@ -48,10 +60,6 @@ if (isset($_POST['act']) && $_POST['act'] == 'act') {
     </from>
     
     <a href="read.php">Į read.php >>></a>
-    <?php 
-      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-      ?>
     </body>
 
 </html>

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTPDDPY2VX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TTPDDPY2VX');
+    </script>
+    <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
+    <script src="/control.js"></script>
+    <!--  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRIEF MESSAGE</title>
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <!-- git Tag -->
-     <?php 
-      include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-      git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-      ?>
     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="get">
         <fieldset>
             <legend>Message:</legend>
