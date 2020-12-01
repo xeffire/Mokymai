@@ -39,6 +39,7 @@
           <li><a href="./WebDev/CSSPirmas/index.php">CSS įvadas</a></li>
           <li><a href="./WebDev/CSSTrecias/index.php">CSS Positions</a></li>
           <li><a href="./WebDev/float/index.php">CSS Float</a></li>
+          <li><a href="./WebDev/CSSBackground/index.php">Background</a></li>
         </ol>
       </div>
       <div class="box">
@@ -49,13 +50,5 @@
         </ol>
       </div>
     </div>
-
-    
-    <!-- git Tag and loading screen --
-    <?php 
-        include ($_SERVER['DOCUMENT_ROOT'].'/gitTag.php'); 
-        git(str_replace($_SERVER['DOCUMENT_ROOT'], "", __DIR__)); 
-    ?>
-    !--  -->
   </body>
 </html>

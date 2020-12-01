@@ -7,6 +7,7 @@ function elemBuilder(obj) {
     }
     return elem;
 }
+
 function gitTag() {
     //objektai apibudinantys elementus
     let gitLink = {
