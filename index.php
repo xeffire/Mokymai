@@ -36,10 +36,11 @@
       <div class="box">
         <h2>CSS</h2>
         <ol>
-          <li><a href="./WebDev/CSSPirmas/index.php">CSS įvadas</a></li>
+          <li><a href="./WebDev/CSSPirmas/index.php">CSS Įvadas</a></li>
           <li><a href="./WebDev/CSSTrecias/index.php">CSS Positions</a></li>
           <li><a href="./WebDev/float/index.php">CSS Float</a></li>
           <li><a href="./WebDev/CSSBackground/index.php">Background</a></li>
+          <li><a href="./WebDev/Layout/index.php">Flexbox Layout</a></li>
         </ol>
       </div>
       <div class="box">
