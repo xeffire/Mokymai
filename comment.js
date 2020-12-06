@@ -6,8 +6,8 @@ function toggleActive(obj) {
 }
 function toggle(obj1) {
   let obj2 = obj1.className.includes("thumbsUpButton")
-    ? document.getElementsByClassName("thumbsDownButton")[0]
-    : document.getElementsByClassName("thumbsUpButton")[0];
+    ? document.querySelector(".thumbsDownButton")
+    : document.querySelector(".thumbsUpButton");
   if (
     obj1.className.includes(" active") &&
     obj2.className.includes(" active")
@@ -29,7 +29,7 @@ function feedbackSubmit(parent) {
   };
   let message = parent.querySelector("textarea").value;
   let displayStatus = (text) => {
-    document.querySelector(".responseText").innerHTML = text;
+    document.querySelector(".submit").innerHTML = text;
     console.log(text);
   };
   let obj = {

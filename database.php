@@ -23,6 +23,7 @@
         } catch (\Throwable $th) {
             exit ("Fatal error");
         }
+        $conn = null;
         exit();
     }
 ?>

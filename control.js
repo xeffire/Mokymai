@@ -17,13 +17,12 @@ function gitTag() {
     }
     let gitDiv = {
         elem: "div",
-        id: "phpFooter",
+        id: "gitTag",
     }
     let gitImg = {
-        elem: "img",
+        elem: "i",
         id:'gitIcon',
-        src:'/github-brands.svg',
-        alt:'',
+        className: "fa fa-github",
     }
     // building elements and nesting
     let resNode = elemBuilder(gitLink);
@@ -45,14 +44,9 @@ function commentTag() {
         id: "mess",
         placeholder:"Komentarai, pastabos, pasiūlymai, bet neprivaloma :)" 
     }
-    let responseText = {
-        elem: "p",
-        className: "responseText"
-    }
     let commentImg = {
-        elem: "img",
-        className: "comment",
-        src: "/comment.svg",
+        elem: "i",
+        className: "fa fa-comment comment",
         onclick: () => toggleActive(document.querySelector(".feedback")),
     } 
     let submitButton = {
@@ -62,21 +56,18 @@ function commentTag() {
         innerHTML: 'Patvirtinti',
     }
     let thumbsUpButton = {
-        elem: "img",
-        className: "thumbsUpButton nonactive",
-        src: "/up-arrow.svg",
+        elem: "i",
+        className: "fa fa-thumbs-up thumbsUpButton nonactive",
         onclick: () => {toggleActive(document.querySelector(".thumbsUpButton")); toggle(document.querySelector(".thumbsUpButton"))}
     }
     let thumbsDownButton = {
-        elem: "img",
-        className: "thumbsDownButton nonactive",
-        src: "/up-arrow.svg",
+        elem: "i",
+        className: "fa fa-thumbs-down thumbsDownButton nonactive",
         onclick: () => {toggleActive(document.querySelector(".thumbsDownButton")); toggle(document.querySelector(".thumbsDownButton"))}
     }
         // building elements and nesting
         let resNode = elemBuilder(feedbackDiv);
         resNode.appendChild(elemBuilder(textarea));
-        resNode.appendChild(elemBuilder(responseText));
         resNode.appendChild(elemBuilder(commentImg));
         resNode.appendChild(elemBuilder(submitButton));
         resNode.appendChild(elemBuilder(thumbsUpButton));
@@ -92,8 +83,12 @@ function linkResources() {
     cssLink.rel = "stylesheet";
     jsComment = document.createElement("script");
     jsComment.src = "/comment.js";
+    fontAwesome = document.createElement("script");
+    fontAwesome.src = "https://kit.fontawesome.com/fea9832bc8.js";
+    fontAwesome.crossOrigin = "anonymous";
     head.appendChild(cssLink);
     head.appendChild(jsComment);
+    head.appendChild(fontAwesome);
 }
 function load() {
     document.body.appendChild(gitTag());
