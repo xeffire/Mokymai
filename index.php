@@ -41,6 +41,7 @@
           <li><a href="./WebDev/float/index.php">CSS Float</a></li>
           <li><a href="./WebDev/CSSBackground/index.php">Background</a></li>
           <li><a href="./WebDev/Layout/index.php">Flexbox Layout</a></li>
+          <li><a href="./WebDev/MediaQueries/index.html">Media Queries</a></li>
         </ol>
       </div>
       <div class="box">
