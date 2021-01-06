@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - taromatas",
+            "request": "launch",
+            "mainClass": "taromatas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parkingas",
+            "request": "launch",
+            "mainClass": "Parkingas",
+            "projectName": "Mokymai_2f6e1ef2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - septintas",
             "request": "launch",
             "mainClass": "septintas",

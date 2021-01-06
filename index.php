@@ -11,7 +11,7 @@
       gtag('config', 'G-TTPDDPY2VX');
     </script>
     <!-- Kontroliniu mygtuku generavimas (Git nuoroda, Komentaras) -->
-    <script src="/control.js"></script>
+    <script src="/control.js" defer></script>
     <!--  -->
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css.css" />
@@ -31,6 +31,7 @@
           </li>
           <li><a href="./PHP/Pastas/index.php">Paštas</a></li>
           <li><a href="./PHP/Salys.php">Šalys</a></li>
+          <li><a href="./PHP/Sportas/index.php">Sportas</a></li>
         </ol>
       </div>
       <div class="box">

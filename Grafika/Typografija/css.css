@@ -1,0 +1,53 @@
+@font-face { font-family: Palemonas; src: url(./Palemonas/Palem3.2.05-nm.ttf)}
+@font-face { font-family: Palemonas; font-weight: bold; src: url(./Palemonas/Palem3.2.05-bd.ttf);}
+@font-face { font-family: Palemonas; font-style: italic; src: url(./Palemonas/Palem3.2.05-it.ttf);}
+@font-face { font-family: Palemonas; font-weight: bold; font-style: italic; src: url(./Palemonas/Palem3.2.05-bi.ttf);}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Palemonas", serif;
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+    color: rgb(70, 62, 21);
+}
+
+.poster {
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100vh / 1.414);
+    height: 100vh;
+    background: url(./parchment.jpg);
+    background-repeat: repeat;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+h1 {
+    margin-top: 0;
+    z-index: 3;
+}
+
+.palemonas {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    border-radius: 50%;
+    width: 100%;
+    z-index: 2;
+    filter: opacity(40%)
+}
+
+.pl {
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    transform: translate 100%;   
+    font-size: 100vh;
+    line-height: 10px;
+    filter: opacity(40%);
+}
