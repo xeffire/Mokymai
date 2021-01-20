@@ -1,0 +1,133 @@
+/* Bendra */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, a {
+    text-shadow: 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, 0 0 2px white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Užduotis */
+/* TODO */
+.psiaudo-klases > li > a {
+    display: inline-block;
+    padding: 0 2em 0 2em;
+    text-decoration: none;
+    line-height: 2em;
+    color: black;
+    font-weight: bold;
+    transition: color 0.1s, background-color 0.1s, text-shadow 0.1s, box-shadow .5s;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.psiaudo-klases > li > a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px 0 black;
+    text-shadow: none;
+}
+
+.psiaudo-klases > li > a:active {
+    background-color: white;
+    box-shadow: 0 0 30px -5px black, inset 0 0 10px 0 black;
+    color: black;
+}
+
+.psiaudo-klases > li:nth-child(2) > a {
+    transition: color 0.4s, background-color 0.4s, text-shadow 0.4s, box-shadow 1s;
+}
+
+.psiaudo-klases > li:nth-child(3) > a {
+    transition: color 0.8s, background-color 0.8s, text-shadow 0.8s, box-shadow 1.2s;
+}
+
+.psiaudo-klases > li:last-child > a {
+    transition: color 1.5s, background-color 1.5s, text-shadow 1.5s, box-shadow 2s;
+}
+
+.psiaudo-elementai{
+
+}
+
+/* Stilizavimas */
+
+.kafka {
+    background: url(./mezzanine.jpg);
+    background-position: center right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+    list-style: none;
+    counter-reset: list;
+}
+
+ol > li {
+    counter-increment: list;
+}
+
+ol > li::before {
+    content: counter(list) ".\2002";
+    display: inline-block;
+    line-height: 2rem;
+    width: 25%;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    white-space: nowrap;
+    text-align: end;
+    margin-left: -25%;
+}
+
+.kafka > li > p {
+    font-weight: 400;
+}
+
+.freddie {
+    background: url(./freddie.jpg);
+    background-position: center right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding-right: 5%;
+    list-style: none;
+}
+
+ol > li {
+    margin: 2em;
+}
+
+ul {
+    list-style: none;
+    font-weight: 400;
+}
+
+h2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 2em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    padding-right: 2em;
+}
+
+.psiaudo-klases {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.psiaudo-elementai {
+    width: 50%;
+}
+
+.psiaudo-elementai > p {
+    text-align: center;
+}
