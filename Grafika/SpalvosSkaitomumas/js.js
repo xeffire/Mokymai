@@ -1,8 +1,8 @@
 let text = {
   kontrastas: ["Black", "on", "light", "color", "gives", "contrast"],
-  vibracija: ["Vibrating", "colors", "makes", "your", "eyes", "hurt"],
-  geras: ["Oposite", "tone", "colors", "makes", "text", "readable"],
-  blogas: ["Oposite", "hue,", "same", "lightness -", "hardly", "readable"],
+  vibracija: ["Vibrating", "colors", "make", "your", "eyes", "hurt"],
+  geras: ["Opposite", "tone", "colors", "makes", "text", "readable"],
+  blogas: ["Opposite", "hue,", "same", "lightness -", "hardly", "readable"],
   geras2: ["Readability", "is", "possible", "with", "similar", "colors"],
   blogas2: ["Too", "close", "of", "tones", "is", "unreadable"],
 };
